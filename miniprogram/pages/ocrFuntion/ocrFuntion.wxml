@@ -1,0 +1,10 @@
+<!--miniprogram/pages/ocrFuntion/ocrFuntion.wxml-->
+<view class="container">
+  <image mode="{{mode}}" src="{{tempFilePaths}}"></image>
+
+</view>
+<text id="show_text">上传图片识别文字啦</text>
+<view>
+<button id="camera_button" bindtap='selectimgFromAlbum'>相册</button>
+<button id="album_button" bindtap='selectimgFromCamera'>拍照 </button>
+</view>

@@ -1,0 +1,8 @@
+<!--miniprogram/pages/choosePicture/choosePicture.wxml-->
+ <view class='title'>OCR 结果：</view>
+
+  <text class="request-text">{{resultstring}}</text>
+<view>
+<button class='Scancode' bindtap='tanslate'>翻译</button>
+<button class='Scancode' bindtap='copy'>复制</button>
+</view>

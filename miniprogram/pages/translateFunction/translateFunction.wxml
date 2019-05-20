@@ -1,0 +1,6 @@
+<!--pages/translateFunction/translateFunction.wxml-->
+<view class='title'>原文：</view>
+<view>{{resource}}</view>
+<view class='title'>译文：</view>
+<view>{{translation}}</view>
+<button class='Scancode' bindtap='upload'>上传</button>

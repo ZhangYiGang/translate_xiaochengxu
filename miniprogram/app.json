@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/ocrFuntion/ocrFuntion",
+    "pages/index/index",
+    "pages/databaseGuide/databaseGuide",
+    "pages/chooseLib/chooseLib",
+    "pages/translateFunction/translateFunction",
+    "pages/choosePicture/choosePicture"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "翻译通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "white",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "backgroundColor": "#5df9ef",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "翻译啦",
+        "pagePath": "pages/ocrFuntion/ocrFuntion",
+        "iconPath": "images/text_unselect.png",
+        "selectedIconPath": "images/text_selected.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/ocrFuntion/ocrFuntion",
+        "iconPath": "images/mine_unselect.png",
+        "selectedIconPath": "images/mine_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
