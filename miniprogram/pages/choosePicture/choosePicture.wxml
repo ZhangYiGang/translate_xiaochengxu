@@ -1,8 +1,13 @@
-<!--miniprogram/pages/choosePicture/choosePicture.wxml-->
- <view class='title'>OCR 结果：</view>
+<!--miniprogram/pages/ocrFuntion/ocrFuntion.wxml-->
+<view class="container">
+  <image mode="{{mode}}" src="{{tempFilePaths}}"></image>
 
-  <text class="request-text">{{resultstring}}</text>
+</view>
+<view id="show_text">
+<text>
+上传图片识别文字啦!</text>
+</view>
 <view>
-<button class='Scancode' bindtap='tanslate'>翻译</button>
-<button class='Scancode' bindtap='copy'>复制</button>
+<button id="camera_button" bindtap='selectimgFromAlbum'>相册</button>
+<button id="album_button" bindtap='selectimgFromCamera'>拍照 </button>
 </view>

@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/ocrFuntion/ocrFuntion",
+    "pages/choosePicture/choosePicture",
+    "pages/orcFunction/orcFunction",
     "pages/index/index",
     "pages/databaseGuide/databaseGuide",
     "pages/chooseLib/chooseLib",
-    "pages/translateFunction/translateFunction",
-    "pages/choosePicture/choosePicture"
+    "pages/translateFunction/translateFunction"
+
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -23,13 +24,13 @@
     "list": [
       {
         "text": "翻译啦",
-        "pagePath": "pages/ocrFuntion/ocrFuntion",
+        "pagePath": "pages/choosePicture/choosePicture",
         "iconPath": "images/text_unselect.png",
         "selectedIconPath": "images/text_selected.png"
       },
       {
         "text": "我的",
-        "pagePath": "pages/ocrFuntion/ocrFuntion",
+        "pagePath": "pages/orcFunction/orcFunction",
         "iconPath": "images/mine_unselect.png",
         "selectedIconPath": "images/mine_selected.png"
       }

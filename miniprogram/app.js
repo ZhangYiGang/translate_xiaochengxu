@@ -1,11 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
-    this.globalData = {
-      appid: "1259217349",
-      secretid: "AKIDG5f7J7Z04scATW5AcpmY5NPFrKabg4Rc",
-      secret: "93qTuJ3czBKSSQEoBLtDICrupY6sQkqg"
-    }
+    
     wx.login(
       {
         success(res) {
@@ -39,5 +35,11 @@ App({
    
   },
   onShow: function () {
+  },
+  globalData: {
+    appid: "1259217349",
+    secretid: "AKIDG5f7J7Z04scATW5AcpmY5NPFrKabg4Rc",
+    secret: "93qTuJ3czBKSSQEoBLtDICrupY6sQkqg",
+    image_url: ""
   }
 })
