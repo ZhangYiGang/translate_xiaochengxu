@@ -1,1 +1,24 @@
 /* miniprogram/pages/orcFunction/orcFunction.wxss */
+.text_show{
+  margin-top: 10%;
+   color: #f9971a;
+}
+.scroll_panel{
+  
+
+}
+.button{
+  background-color:#f08260;
+width: 30%; /* 宽度 */
+height: 40px; /* 高度 */
+border-width: 0px; /* 边框宽度 */
+	border-radius: 10px; /* 边框半径 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 15px;
+  float: right;
+  margin: 5%;
+  margin-right: 13%
+}

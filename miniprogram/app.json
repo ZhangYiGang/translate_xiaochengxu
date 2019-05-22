@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/choosePicture/choosePicture",
+    "pages/translateFunction/translateFunction",
+        "pages/choosePicture/choosePicture",
     "pages/orcFunction/orcFunction",
     "pages/index/index",
     "pages/databaseGuide/databaseGuide",
-    "pages/chooseLib/chooseLib",
-    "pages/translateFunction/translateFunction"
-
+    "pages/chooseLib/chooseLib"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -30,7 +30,7 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/orcFunction/orcFunction",
+        "pagePath": "pages/translateFunction/translateFunction",
         "iconPath": "images/mine_unselect.png",
         "selectedIconPath": "images/mine_selected.png"
       }

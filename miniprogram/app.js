@@ -40,6 +40,7 @@ App({
     appid: "1259217349",
     secretid: "AKIDG5f7J7Z04scATW5AcpmY5NPFrKabg4Rc",
     secret: "93qTuJ3czBKSSQEoBLtDICrupY6sQkqg",
-    image_url: ""
+    image_url: "",
+    resource:"this is"
   }
 })

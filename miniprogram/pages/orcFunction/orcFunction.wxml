@@ -1,11 +1,16 @@
 <!--miniprogram/pages/orcFunction/orcFunction.wxml-->
  <view class="container">
   <image mode="{{mode}}" src="{{image_url}}"></image> 
-  </view> 
- <view class='title'>OCR 结果：</view>
+  </view>
+  <scroll-view class="scroll_panel" style='height:150px'>
+  <textarea class="text_show"
+    value="{{result_string}}"
+    placeholder-style="color:red;"
+  ></textarea>
+  </scroll-view> 
+ 
+  <view>
 
-  <text class="request-text">{{resultstring}}</text>
-<view>
-<button class='Scancode' bindtap='tanslate'>翻译</button>
-<button class='Scancode' bindtap='copy'>复制</button>
+<button class='button' bindtap='tanslate'>确定</button>
+<button class='button' bindtap='back'>重选图片</button>
 </view>
