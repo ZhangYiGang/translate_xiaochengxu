@@ -74,12 +74,10 @@ Page({
 
   },
   
-  tanslate: function () {
+  ocr: function () {
     var that = this;
     that.submitimg();
-    wx.navigateTo({
-      url: '../translateFunction/translateFunction',
-    })
+    
   },
   back: function(){
     wx.navigateBack({
@@ -138,4 +136,9 @@ Page({
       app.globalData.resource = resource
     }
   },
+  translate: function(){
+    wx.navigateTo({
+      url: '../translateFunction/translateFunction',
+    })
+  }
 })

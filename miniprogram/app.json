@@ -1,7 +1,8 @@
 {
   "pages": [
+    "pages/choosePicture/choosePicture",
     "pages/translateFunction/translateFunction",
-        "pages/choosePicture/choosePicture",
+        
     "pages/orcFunction/orcFunction",
     "pages/index/index",
     "pages/databaseGuide/databaseGuide",
@@ -30,7 +31,7 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/translateFunction/translateFunction",
+        "pagePath": "pages/choosePicture/choosePicture",
         "iconPath": "images/mine_unselect.png",
         "selectedIconPath": "images/mine_selected.png"
       }

@@ -11,6 +11,6 @@
  
   <view>
 
-<button class='button' bindtap='tanslate'>确定</button>
-<button class='button' bindtap='back'>重选图片</button>
+<button class='button' bindtap='ocr'>确定</button>
+<button class='button' bindtap='translate'>翻译</button>
 </view>
