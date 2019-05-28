@@ -1,0 +1,16 @@
+<!--pages/translateFunction/translateFunction.wxml-->
+<view class='title'>
+<label>原文: </label>
+<textarea class='textarea' disabled='true'>{{resource}}</textarea>
+</view>
+
+<view class='title'>
+<label>
+译文: 
+</label>
+<textarea class='textarea' disabled='true'>{{translation}}</textarea>
+</view>
+
+<button id='button_upload' bindtap='upload'>上传</button>
+<button id='button_copy' bindtap='copy' >复制</button>
+
