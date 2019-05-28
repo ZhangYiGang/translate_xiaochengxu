@@ -1,3 +1,4 @@
+
 var app = getApp();
 var time = '';
 
@@ -22,7 +23,8 @@ Page({
   setImage: function () {
     var width;
     var height;
-    var that = this;
+
+    var that=this;
     wx.getImageInfo({
       src: that.data.tempFilePaths,
       success(res) {
@@ -52,14 +54,14 @@ Page({
         // that.submitimg();
         app.globalData.image_url = that.data.tempFilePaths;
 
+        
         wx.navigateTo({
           url: '../orcFunction/orcFunction',
-
-        })
+          
+        } )
         that.setImage()
       }
     })
-
 
   },
   selectimgFromCamera: function () {
@@ -80,7 +82,6 @@ Page({
     })
     that.setImage()
   },
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -130,4 +131,5 @@ Page({
   onShareAppMessage: function () {
 
   }
+
 })

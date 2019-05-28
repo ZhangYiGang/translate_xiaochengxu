@@ -20,6 +20,7 @@ Page({
     var that = this;
     that.setData({
       image_url: app.globalData.image_url[0],
+
       // result_string:app.globalData.result_text
     })
 //console.log(that.data.image_url)
@@ -134,6 +135,7 @@ Page({
       console.log(result);//控制台记录结果，以便调试
       this.setData({ "result_string": resource });
       console.log(resource)
+
       app.globalData.resource = resource
     }
   },

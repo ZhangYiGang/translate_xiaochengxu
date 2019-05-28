@@ -11,6 +11,7 @@
   </scroll-view> 
  <!--     auto-height="true"
  -->
+
   <view>
 
 <button class='button' bindtap='ocr'>确定</button>

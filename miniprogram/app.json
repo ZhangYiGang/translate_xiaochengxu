@@ -1,8 +1,7 @@
 {
   "pages": [
-        "pages/choosePicture/choosePicture",
-        "pages/translateFunction/translateFunction",
-        
+    "pages/choosePicture/choosePicture",
+    "pages/translateFunction/translateFunction",
     "pages/orcFunction/orcFunction",
     "pages/index/index",
     "pages/databaseGuide/databaseGuide",

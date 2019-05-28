@@ -1,18 +1,24 @@
 {
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false
 	},
-	"appid": "wx0c4d2586bd87e465",
-	"projectname": "translateDemo",
-	"libVersion": "2.2.5",
 	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "wxcbfe9aa9bef80537",
+	"projectname": "translateDemo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -24,22 +30,13 @@
 			"current": -1,
 			"list": []
 		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
 		"game": {
+			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }
