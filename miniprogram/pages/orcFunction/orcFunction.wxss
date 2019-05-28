@@ -1,15 +1,15 @@
 /* miniprogram/pages/orcFunction/orcFunction.wxss */
 .text_show{
 
-  /* margin-top: 10%; */
-
+  margin-left: 5%;
    color: #f9971a;
+   width: 100%;
 }
 .scroll_panel{
   
 
 }
-.button{
+#button_ocr{
   background-color:#f08260;
 width: 30%; /* 宽度 */
 height: 40px; /* 高度 */
@@ -20,7 +20,22 @@ border-width: 0px; /* 边框宽度 */
 	font-family: Microsoft YaHei; /* 设置字体 */
 	color: white; /* 字体颜色 */
 	font-size: 15px;
-  float: right;
-  margin: 5%;
-  margin-right: 13%
+  position: fixed;
+  bottom: 1%;
+  right: 10%
+}
+#button_translate{
+  background-color:#f08260;
+width: 30%; /* 宽度 */
+height: 40px; /* 高度 */
+border-width: 0px; /* 边框宽度 */
+	border-radius: 10px; /* 边框半径 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 15px;
+  position: fixed;
+  bottom: 1%;
+  left: 10%;
 }

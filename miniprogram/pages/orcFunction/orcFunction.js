@@ -8,9 +8,10 @@ Page({
    */
   data: {
     time:0,
+    height:0,
     image_url :"" ,
     mode: "scaleToFill",
-    result_string:"这里会显示结果啊"
+    result_string:"\n\n\n              这里会显示结果啊"
   },
 
   /**
@@ -23,6 +24,11 @@ Page({
 
       // result_string:app.globalData.result_text
     })
+    
+      that.setData({
+        height: wx.getSystemInfoSync().windowHeight-40
+      })
+
 //console.log(that.data.image_url)
   },
 

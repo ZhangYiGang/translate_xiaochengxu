@@ -7,14 +7,19 @@ Page({
    */
   data: {
     resource: "",
-    translation: ""
+    translation: "",
+    height:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.listenerTrans(app.globalData.resource)
+    var that=this;
+    this.listenerTrans(app.globalData.resource);
+    that.setData({
+      height: (wx.getSystemInfoSync().windowHeight - 40)/2
+    })
   },
 
   /**

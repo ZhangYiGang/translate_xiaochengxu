@@ -1,14 +1,30 @@
 <!--pages/translateFunction/translateFunction.wxml-->
 <view class='title'>
 <label>原文: </label>
-<textarea class='textarea' disabled='true'>{{resource}}</textarea>
+  <scroll-view  scroll-y style='height:{{height}}px'> 
+  <textarea class="text_show"
+    value="{{resource}}"
+    placeholder-style="color:red;"
+    maxlength	="-1"
+    auto-height=true
+  ></textarea>
+  <!-- <text >{{result_string}}</text> -->
+  </scroll-view> 
 </view>
 
 <view class='title'>
 <label>
 译文: 
 </label>
-<textarea class='textarea' disabled='true'>{{translation}}</textarea>
+  <scroll-view  scroll-y style='height:{{height}}px'>
+  <textarea 
+    value="{{translation}}"
+    placeholder-style="color:red;"
+    maxlength	="-1"
+  
+  ></textarea>
+  <!-- <text >{{result_string}}</text> -->
+  </scroll-view> 
 </view>
 
 <button id='button_upload' bindtap='upload'>上传</button>

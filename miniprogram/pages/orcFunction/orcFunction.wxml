@@ -1,19 +1,22 @@
 <!--miniprogram/pages/orcFunction/orcFunction.wxml-->
- <view class="container">
+
+  <scroll-view class="scroll_panel" scroll-y style='height:{{height}}px'>
+   <view class="container">
   <image mode="{{mode}}" src="{{image_url}}"></image> 
-  </view>
-  <scroll-view class="scroll_panel" style='height:150px'>
   <textarea class="text_show"
     value="{{result_string}}"
     placeholder-style="color:red;"
     maxlength	="-1"
+    auto-height=true
   ></textarea>
+  <!-- <text >{{result_string}}</text> -->
+  </view>
   </scroll-view> 
  <!--     auto-height="true"
  -->
 
   <view>
 
-<button class='button' bindtap='ocr'>确定</button>
-<button class='button' bindtap='translate'>翻译</button>
+<button id='button_translate' bindtap='ocr'>确定</button>
+<button id='button_ocr' bindtap='translate'>翻译</button>
 </view>
