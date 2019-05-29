@@ -1,0 +1,20 @@
+<!--miniprogram/pages/ownpage/ownpage.wxml-->
+<view class="container">
+  <!-- 用户头像面板 -->
+  <view class="userinfo">
+    <view>
+      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="scaleToFill"></image>
+    </view>
+    <text class="username">{{userInfo.nickName}}</text>
+  </view>
+
+  <!-- 用户功能列表 -->
+  <view class="user-feature" wx:if="{{!userInfo.nickName}}">
+    <button open-type="getUserInfo" lang="zh_CN"        bindgetuserinfo="onGotUserInfo" class="btn-getInfo">点击登录,解锁更多功能</button>
+  </view>
+  <view class="app-info">
+  <button  lang="zh_CN" bindtap='danci' class="btn-getInfo">单词本</button>
+  <button  lang="zh_CN" bindtap='danci' class="btn-getInfo">待定</button>
+  </view>
+</view>
+

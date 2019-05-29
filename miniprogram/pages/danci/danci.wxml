@@ -1,0 +1,23 @@
+<!--miniprogram/pages/danci/danci.wxml-->
+<view class='title' wx:for="{{danci}}">
+<label>单词: </label>
+  <scroll-view  scroll-y style='height:{{height}}px'> 
+  <textarea class="text_show"
+    value="{{item.resource}}"
+    placeholder-style="color:red;"
+    maxlength	="-1"
+    auto-height=true
+  ></textarea>
+  <!-- <text >{{result_string}}</text> -->
+  </scroll-view> 
+  <label>翻译: </label>
+  <scroll-view  scroll-y style='height:{{height}}px'> 
+  <textarea class="text_show"
+    value="{{item.translation}}"
+    placeholder-style="color:red;"
+    maxlength	="-1"
+    auto-height=true
+  ></textarea>
+  <!-- <text >{{result_string}}</text> -->
+  </scroll-view> 
+</view>
