@@ -1,1 +1,11 @@
 /* miniprogram/pages/danci/danci.wxss */
+.text_show{
+
+  margin-left: 5%;
+  margin-right: 5%;
+   color: #f9971a;
+   width: 95%;
+}
+.textarea{
+  height:120px;
+}
